@@ -1,0 +1,28 @@
+---
+author:
+  - 'Anthony Johnson <aj@ohess.org>'
+build_requires:
+  ExtUtils::MakeMaker: 6.59
+configure_requires:
+  ExtUtils::MakeMaker: 6.59
+distribution_type: module
+dynamic_config: 1
+generated_by: 'Module::Install version 1.06'
+license: unknown
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: ZenIRCBot
+no_index:
+  directory:
+    - inc
+    - t
+requires:
+  AnyEvent::Redis: 0
+  JSON: 0
+  perl: 5.10.0
+resources:
+  bugtracker: http://github.com/agjohnson/zenircbot-perl/issues
+  homepage: http://ohess.org/projects/zenircbot-perl
+  repository: http://github.com/agjohnson/zenircbot-perl.git
+version: 0.01_01
